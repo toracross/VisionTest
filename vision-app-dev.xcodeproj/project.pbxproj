@@ -7,17 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6F2FC7F11F20CF2B00F15470 /* RoundedShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7F01F20CF2B00F15470 /* RoundedShadowView.swift */; };
+		6F2FC7F31F20D09600F15470 /* RoundedShadowButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7F21F20D09600F15470 /* RoundedShadowButton.swift */; };
+		6F2FC7F51F20D0CD00F15470 /* RoundedShadowImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7F41F20D0CD00F15470 /* RoundedShadowImageView.swift */; };
+		6F2FC7F71F21307800F15470 /* SqueezeNet.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 6F2FC7F61F21307800F15470 /* SqueezeNet.mlmodel */; };
 		6F8D26CD1F20CB3200CCF909 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D26CC1F20CB3200CCF909 /* AppDelegate.swift */; };
-		6F8D26CF1F20CB3200CCF909 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D26CE1F20CB3200CCF909 /* ViewController.swift */; };
+		6F8D26CF1F20CB3200CCF909 /* CameraVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6F8D26CE1F20CB3200CCF909 /* CameraVC.swift */; };
 		6F8D26D21F20CB3200CCF909 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D26D01F20CB3200CCF909 /* Main.storyboard */; };
 		6F8D26D41F20CB3200CCF909 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D26D31F20CB3200CCF909 /* Assets.xcassets */; };
 		6F8D26D71F20CB3200CCF909 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6F8D26D51F20CB3200CCF909 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6F2FC7F01F20CF2B00F15470 /* RoundedShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowView.swift; sourceTree = "<group>"; };
+		6F2FC7F21F20D09600F15470 /* RoundedShadowButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowButton.swift; sourceTree = "<group>"; };
+		6F2FC7F41F20D0CD00F15470 /* RoundedShadowImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedShadowImageView.swift; sourceTree = "<group>"; };
+		6F2FC7F61F21307800F15470 /* SqueezeNet.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SqueezeNet.mlmodel; sourceTree = "<group>"; };
 		6F8D26C91F20CB3200CCF909 /* vision-app-dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vision-app-dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F8D26CC1F20CB3200CCF909 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6F8D26CE1F20CB3200CCF909 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6F8D26CE1F20CB3200CCF909 /* CameraVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraVC.swift; sourceTree = "<group>"; };
 		6F8D26D11F20CB3200CCF909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6F8D26D31F20CB3200CCF909 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6F8D26D61F20CB3200CCF909 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,14 +62,50 @@
 		6F8D26CB1F20CB3200CCF909 /* vision-app-dev */ = {
 			isa = PBXGroup;
 			children = (
+				6F8D26E11F20CB7500CCF909 /* Resources */,
+				6F8D26E01F20CB6600CCF909 /* Model */,
+				6F8D26DE1F20CB5900CCF909 /* View */,
+				6F8D26DF1F20CB5E00CCF909 /* Controller */,
 				6F8D26CC1F20CB3200CCF909 /* AppDelegate.swift */,
-				6F8D26CE1F20CB3200CCF909 /* ViewController.swift */,
 				6F8D26D01F20CB3200CCF909 /* Main.storyboard */,
 				6F8D26D31F20CB3200CCF909 /* Assets.xcassets */,
 				6F8D26D51F20CB3200CCF909 /* LaunchScreen.storyboard */,
 				6F8D26D81F20CB3200CCF909 /* Info.plist */,
 			);
 			path = "vision-app-dev";
+			sourceTree = "<group>";
+		};
+		6F8D26DE1F20CB5900CCF909 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6F2FC7F01F20CF2B00F15470 /* RoundedShadowView.swift */,
+				6F2FC7F21F20D09600F15470 /* RoundedShadowButton.swift */,
+				6F2FC7F41F20D0CD00F15470 /* RoundedShadowImageView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6F8D26DF1F20CB5E00CCF909 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				6F8D26CE1F20CB3200CCF909 /* CameraVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6F8D26E01F20CB6600CCF909 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6F2FC7F61F21307800F15470 /* SqueezeNet.mlmodel */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6F8D26E11F20CB7500CCF909 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,8 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F8D26CF1F20CB3200CCF909 /* ViewController.swift in Sources */,
+				6F8D26CF1F20CB3200CCF909 /* CameraVC.swift in Sources */,
+				6F2FC7F71F21307800F15470 /* SqueezeNet.mlmodel in Sources */,
 				6F8D26CD1F20CB3200CCF909 /* AppDelegate.swift in Sources */,
+				6F2FC7F11F20CF2B00F15470 /* RoundedShadowView.swift in Sources */,
+				6F2FC7F31F20D09600F15470 /* RoundedShadowButton.swift in Sources */,
+				6F2FC7F51F20D0CD00F15470 /* RoundedShadowImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +323,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NG6UM76K5M;
 				INFOPLIST_FILE = "vision-app-dev/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toracross.vision-app-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -289,6 +338,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = NG6UM76K5M;
 				INFOPLIST_FILE = "vision-app-dev/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.toracross.vision-app-dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -316,6 +366,7 @@
 				6F8D26DD1F20CB3200CCF909 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
